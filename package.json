@@ -3,19 +3,6 @@
   "version": "1.0.0",
   "description": "My webpack project",
   "main": "index.js",
-  "devDependencies": {
-    "@webpack-cli/generators": "^2.4.2",
-    "css-loader": "^6.7.1",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.6.0",
-    "prettier": "^2.5.1",
-    "style-loader": "^3.3.1",
-    "ts-loader": "^9.2.8",
-    "typescript": "^4.6.2",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --node-env=production",
@@ -35,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/naylalex/tc2005b-202201-practica-examen-parcial-a01752785/issues"
   },
-  "homepage": "https://github.com/naylalex/tc2005b-202201-practica-examen-parcial-a01752785#readme"
+  "homepage": "https://github.com/naylalex/tc2005b-202201-practica-examen-parcial-a01752785#readme",
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.4.2",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "prettier": "^2.5.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
 }
